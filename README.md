@@ -75,7 +75,7 @@ PCA & QC
 
 WT and KD samples separate clearly, confirming biological differences.
 
-<img src="figures/PCA.png" width="450"/> <img src="figures/MA_plot.png" width="450"/>
+<img src="scripts/figures/PCA.png" width="450"/> <img src="scripts/figures/MA_plot.png" width="450"/>
 
 Differential Expression
 
@@ -85,7 +85,7 @@ Top upregulated genes in KD include CXCL8, ICAM1, linked to immune cell recruitm
 
 Top downregulated genes include MEST, HGF, tied to tumor growth and signaling.
 
-<img src="figures/Volcano.png" width="500"/>
+<img src="scripts/figures/Volcano.png" width="500"/>
 
 GO Biological Processes
 
@@ -99,7 +99,7 @@ Synaptic signaling regulation
 
 These suggest immune microenvironment remodeling upon LAMP2A knockdown.
 
-<img src="figures/GO_BP_barplot.png" width="500"/>
+<img src="scripts/figures/GO_BP_barplot.png" width="500"/>
 
 KEGG Pathways
 
@@ -115,7 +115,7 @@ Focal adhesion
 
 This reflects cytoskeletal reorganization and adhesion signaling disruption.
 
-<img src="figures/KEGG_barplot.png" width="500"/>
+<img src="scripts/figures/KEGG_barplot.png" width="500"/>
 
 Biological Interpretation
 
