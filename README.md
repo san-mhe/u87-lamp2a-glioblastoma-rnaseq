@@ -30,7 +30,7 @@ KD replicates (3 cell lines)
 Source: Chaperone-mediated autophagy in glioblastoma, SRA BioProject (example: SRR29525293, SRR29525290
 )
 
-Raw reads were aligned and quantified using Galaxy featureCounts → imported into R.
+Raw reads were aligned and quantified using Galaxy FASTQC, MultiQC, TrimGalore, featureCounts → imported into R.
 
 Pipeline
 
@@ -57,6 +57,8 @@ GO (Biological Process) enrichment
 KEGG pathway enrichment
 
 Dotplots and barplots
+
+The original analysis of U187 cell line in GALAXY with FASTA, FASTQC, MultiQC, TrimGalore results, Alignemnt and FeatureCounts can be accessed here. https://usegalaxy.org.au/u/esm/h/u187-glioblastoma-rnaseq
 
 How to run:
 
