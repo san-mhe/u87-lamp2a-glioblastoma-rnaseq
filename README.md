@@ -19,7 +19,7 @@ Visualize results with PCA, volcano plots, heatmaps, and enrichment plots.
 
 Data Retrieval
 
-RNA-Seq count data was retrieved from NCBI SRA (Galaxy-processed featureCounts tables):
+RNA-Seq count data (processed starting from raw FASTA files) were retrieved from NCBI SRA (Galaxy-processed featureCounts tables):
 
 Samples used:
 
@@ -27,8 +27,7 @@ WT replicates (3 cell lines)
 
 KD replicates (3 cell lines)
 
-Source: Chaperone-mediated autophagy in glioblastoma, SRA BioProject (example: SRR29525293, SRR29525290
-)
+Source: Chaperone-mediated autophagy in glioblastoma, SRA BioProject (SRR29525293, SRR29525290)
 
 Raw reads were aligned and quantified using Galaxy FASTQC, MultiQC, TrimGalore, featureCounts → imported into R.
 
